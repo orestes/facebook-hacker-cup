@@ -33,11 +33,11 @@ Using python:
 
 ### Solving ###
 
-<img src="solving.png" width="330">
+<img src="solving.png" width="475">
 
 ### Solved ###
 
-<img src="solved.png" width="330">
+<img src="solved.png" width="475">
 
 ## License
 
