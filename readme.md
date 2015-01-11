@@ -21,15 +21,13 @@ I'm using the simplest quickest feedback loop I could come up with:
 1. Diff the generated output file against the expected output file.
 1. Repeat
 
-`test.sh` does the first two steps. The `watch` utility does the repeating part.
-
 An example using php: 
 
-    watch -n 1 "./test.sh ~/hacker-cup/00/15 'php solve.php'"
+    watch -n 1 "php solve.php < example/input.txt > output.txt && diff example/output.txt output.txt"
 
 Using python:
 
-    watch -n 1 "./test.sh ~/hacker-cup/00/15 'python solve.py'"
+    watch -n 1 "python solve.py < example/input.txt > output.txt && diff example/output.txt output.txt"
 
 ### Solving ###
 
