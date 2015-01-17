@@ -4,7 +4,7 @@ function get_max($digits, $total) {
   $max     = $digits[0];
   $max_pos = 0;
 
-  for ($i = 1; $i < $total; $i++)
+  for ($i = 1; $i <= $total; $i++)
   {
     $digit = $digits[$i];
     if ($digit >= $max) {
